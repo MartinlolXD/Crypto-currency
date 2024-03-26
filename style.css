@@ -1,0 +1,72 @@
+nav {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(145,145,145,1) 44%, rgba(180,178,178,1) 53%, rgba(208,207,207,1) 62%, rgba(255,255,255,1) 100%);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
+
+
+/* Styling pro kontejner karet */
+.card-container {
+    display: flex;
+    flex-direction: column; /* Zajišťuje, že karty budou pod sebou */
+    gap: 5px;
+    
+  }
+  
+  /* Styling pro samotné karty */
+  .card {
+    background-color: #f0f0f0;
+    border: 1px solid  rgb(0, 0, 0);
+    border: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(145,145,145,1) 44%, rgba(180,178,178,1) 53%, rgba(208,207,207,1) 62%, rgba(255,255,255,1) 100%);
+    border-radius: 8px;
+   font-size: smaller;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Stín karty */
+    display: flex;
+    justify-content: space-evenly;
+ flex-direction: row;
+  }
+  
+  .sInput {
+    display: flex;
+    font-size: x-large;
+    margin-top: 50px;
+    justify-content: center;
+    width: 5000px;
+    border: 3px solid black;
+  }
+  .nahman {
+    display: flex;
+    justify-content: center;
+  }
+
+  body {
+    background: rgb(82,81,81);
+background: linear-gradient(90deg, rgba(82,81,81,1) 0%, rgba(145,145,145,1) 44%, rgba(180,178,178,1) 53%, rgba(208,207,207,1) 62%, rgba(255,255,255,1) 100%);
+  }
